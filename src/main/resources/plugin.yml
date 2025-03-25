@@ -1,0 +1,8 @@
+name: LOTRigins
+version: '${project.version}'
+main: org.randomlima.lotrigins.LOTRigins
+api-version: '1.21'
+commands:
+  setOrigin:
+    description: Sets the origin for a player.
+    usage: /setOrigin <player> <origin>
