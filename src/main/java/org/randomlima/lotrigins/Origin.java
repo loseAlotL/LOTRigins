@@ -72,58 +72,58 @@ public class Origin {
         AttributeInstance ms = player.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED);
         if (ms != null) ms.setBaseValue(movementSpeed);
 
-        AttributeInstance s = player.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED); // Example, use a different attribute if needed
-        if (s != null) s.setBaseValue(scale);  // Example scale application
+        AttributeInstance s = player.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED);
+        if (s != null) s.setBaseValue(scale);
 
-        AttributeInstance sh = player.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED); // Assuming step height could be handled this way
+        AttributeInstance sh = player.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED);
         if (sh != null) sh.setBaseValue(stepHeight);
 
         AttributeInstance js = player.getAttribute(Attribute.GENERIC_JUMP_STRENGTH);
         if (js != null) js.setBaseValue(jumpStrength);
 
-        AttributeInstance bir = player.getAttribute(Attribute.PLAYER_BLOCK_INTERACTION_RANGE); // Placeholder, needs correct attribute
+        AttributeInstance bir = player.getAttribute(Attribute.PLAYER_BLOCK_INTERACTION_RANGE);
         if (bir != null) bir.setBaseValue(blockInteractionRange);
 
-        AttributeInstance eer = player.getAttribute(Attribute.PLAYER_ENTITY_INTERACTION_RANGE); // Placeholder, needs correct attribute
+        AttributeInstance eer = player.getAttribute(Attribute.PLAYER_ENTITY_INTERACTION_RANGE);
         if (eer != null) eer.setBaseValue(entityInteractionRange);
 
-        AttributeInstance bbs = player.getAttribute(Attribute.PLAYER_BLOCK_BREAK_SPEED); // Placeholder, if applicable
+        AttributeInstance bbs = player.getAttribute(Attribute.PLAYER_BLOCK_BREAK_SPEED);
         if (bbs != null) bbs.setBaseValue(blockBreakSpeed);
 
-        AttributeInstance g = player.getAttribute(Attribute.GENERIC_GRAVITY); // Placeholder for gravity, if applicable
+        AttributeInstance g = player.getAttribute(Attribute.GENERIC_GRAVITY);
         if (g != null) g.setBaseValue(gravity);
 
-        AttributeInstance sfd = player.getAttribute(Attribute.GENERIC_SAFE_FALL_DISTANCE); // Placeholder
+        AttributeInstance sfd = player.getAttribute(Attribute.GENERIC_SAFE_FALL_DISTANCE);
         if (sfd != null) sfd.setBaseValue(safeFallDistance);
 
-        AttributeInstance fdm = player.getAttribute(Attribute.GENERIC_FALL_DAMAGE_MULTIPLIER); // Placeholder
+        AttributeInstance fdm = player.getAttribute(Attribute.GENERIC_FALL_DAMAGE_MULTIPLIER);
         if (fdm != null) fdm.setBaseValue(fallDamageMultiplier);
 
-        AttributeInstance bt = player.getAttribute(Attribute.GENERIC_BURNING_TIME); // Placeholder
+        AttributeInstance bt = player.getAttribute(Attribute.GENERIC_BURNING_TIME);
         if (bt != null) bt.setBaseValue(burningTime);
 
-        AttributeInstance ekr = player.getAttribute(Attribute.GENERIC_EXPLOSION_KNOCKBACK_RESISTANCE); // Placeholder
+        AttributeInstance ekr = player.getAttribute(Attribute.GENERIC_EXPLOSION_KNOCKBACK_RESISTANCE);
         if (ekr != null) ekr.setBaseValue(explosionKnockbackResistance);
 
-        AttributeInstance me = player.getAttribute(Attribute.PLAYER_MINING_EFFICIENCY); // Placeholder
+        AttributeInstance me = player.getAttribute(Attribute.PLAYER_MINING_EFFICIENCY);
         if (me != null) me.setBaseValue(miningEfficiency);
 
-        AttributeInstance mef = player.getAttribute(Attribute.GENERIC_MOVEMENT_EFFICIENCY); // Placeholder
+        AttributeInstance mef = player.getAttribute(Attribute.GENERIC_MOVEMENT_EFFICIENCY);
         if (mef != null) mef.setBaseValue(movementEfficiency);
 
-        AttributeInstance ob = player.getAttribute(Attribute.GENERIC_OXYGEN_BONUS); // Placeholder
+        AttributeInstance ob = player.getAttribute(Attribute.GENERIC_OXYGEN_BONUS);
         if (ob != null) ob.setBaseValue(oxygenBonus);
 
-        AttributeInstance ss = player.getAttribute(Attribute.PLAYER_SNEAKING_SPEED); // Placeholder
+        AttributeInstance ss = player.getAttribute(Attribute.PLAYER_SNEAKING_SPEED);
         if (ss != null) ss.setBaseValue(sneakingSpeed);
 
-        AttributeInstance sms = player.getAttribute(Attribute.PLAYER_SUBMERGED_MINING_SPEED); // Placeholder
+        AttributeInstance sms = player.getAttribute(Attribute.PLAYER_SUBMERGED_MINING_SPEED);
         if (sms != null) sms.setBaseValue(submergedMiningSpeed);
 
-        AttributeInstance sdr = player.getAttribute(Attribute.PLAYER_SWEEPING_DAMAGE_RATIO); // Placeholder
+        AttributeInstance sdr = player.getAttribute(Attribute.PLAYER_SWEEPING_DAMAGE_RATIO);
         if (sdr != null) sdr.setBaseValue(sweepingDamageRatio);
 
-        AttributeInstance wme = player.getAttribute(Attribute.GENERIC_WATER_MOVEMENT_EFFICIENCY); // Placeholder
+        AttributeInstance wme = player.getAttribute(Attribute.GENERIC_WATER_MOVEMENT_EFFICIENCY);
         if (wme != null) wme.setBaseValue(waterMovementEfficiency);
 
     }
