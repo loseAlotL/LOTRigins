@@ -1,18 +1,18 @@
-package org.randomlima.lotrigins.Managers;
+package org.randomlima.lotraces.Managers;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.randomlima.lotrigins.LOTRigins;
+import org.randomlima.lotraces.LOTRaces;
 
 import java.io.File;
 import java.io.IOException;
 
 public class ODSManager {
-    private final LOTRigins plugin;
+    private final LOTRaces plugin;
     private File originsFile;
     private FileConfiguration originsConfig;
 
-    public ODSManager(LOTRigins plugin) {
+    public ODSManager(LOTRaces plugin) {
         this.plugin = plugin;
         loadOriginsFile();
     }

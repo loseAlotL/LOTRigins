@@ -1,20 +1,18 @@
-package org.randomlima.lotrigins.Commands;
+package org.randomlima.lotraces.Commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.jetbrains.annotations.NotNull;
-import org.randomlima.lotrigins.LOTRigins;
-import org.randomlima.lotrigins.Managers.ODSManager;
-import org.randomlima.lotrigins.Origin;
+import org.randomlima.lotraces.LOTRaces;
+import org.randomlima.lotraces.Origin;
 
 public class SetOriginCommand implements CommandExecutor {
 
-    private final LOTRigins plugin;
+    private final LOTRaces plugin;
 
-    public SetOriginCommand(LOTRigins plugin) {
+    public SetOriginCommand(LOTRaces plugin) {
         this.plugin = plugin;
     }
 
@@ -39,7 +37,6 @@ public class SetOriginCommand implements CommandExecutor {
             return false;
         }
 
-        ODSManager odsManager = new ODSManager(plugin);
         Origin origin = new Origin(plugin, originKey);
 
         origin.applyPlayer(targetPlayer);

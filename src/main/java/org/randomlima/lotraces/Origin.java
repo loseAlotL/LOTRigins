@@ -1,12 +1,12 @@
-package org.randomlima.lotrigins;
+package org.randomlima.lotraces;
 
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeInstance;
 import org.bukkit.entity.Player;
-import org.randomlima.lotrigins.Managers.ODSManager;
+import org.randomlima.lotraces.Managers.ODSManager;
 
 public class Origin {
-    private final LOTRigins plugin;
+    private final LOTRaces plugin;
     private ODSManager odsManager;
     //private final String data;
     private String name; // default:
@@ -37,7 +37,7 @@ public class Origin {
     private double sweepingDamageRatio; // default: 0 (0~1)
     private double waterMovementEfficiency; // default: 0 (0~1)
 
-    public Origin(LOTRigins plugin, String name){
+    public Origin(LOTRaces plugin, String name){
         this.name = name;
         this.plugin = plugin;
         odsManager = new ODSManager(plugin);

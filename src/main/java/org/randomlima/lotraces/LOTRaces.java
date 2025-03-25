@@ -1,9 +1,9 @@
-package org.randomlima.lotrigins;
+package org.randomlima.lotraces;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import org.randomlima.lotrigins.Managers.ODSManager;
+import org.randomlima.lotraces.Managers.ODSManager;
 
-public final class LOTRigins extends JavaPlugin {
+public final class LOTRaces extends JavaPlugin {
     private ODSManager odsManager;
 
     @Override
